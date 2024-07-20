@@ -15,6 +15,7 @@ class ChatApp extends StatelessWidget {
           onPressed: () {
             print('clickedd');
           },
+                child: Text('Toggle Navigation'),
         ),
         body: Text('Selam!'),
       ),
