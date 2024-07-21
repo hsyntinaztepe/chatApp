@@ -34,7 +34,7 @@ class ChatPage extends StatelessWidget {
                 ),
               ],
             ),
-            margin: EdgeInsets.all(50),
+            margin: EdgeInsets.all(8.0),
             decoration: BoxDecoration(
               color: Colors.grey,
               borderRadius: BorderRadius.only(
@@ -58,7 +58,7 @@ class ChatPage extends StatelessWidget {
                 ),
               ],
             ),
-            margin: EdgeInsets.all(50),
+            margin: EdgeInsets.all(8.0),
             decoration: BoxDecoration(
               color: Colors.grey,
               borderRadius: BorderRadius.only(
@@ -82,7 +82,7 @@ class ChatPage extends StatelessWidget {
                 ),
               ],
             ),
-            margin: EdgeInsets.all(50),
+            margin: EdgeInsets.all(8.0),
             decoration: BoxDecoration(
               color: Colors.grey,
               borderRadius: BorderRadius.only(
