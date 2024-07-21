@@ -12,11 +12,9 @@ class ChatApp extends StatelessWidget {
     return MaterialApp(
       title: "Flutter Chat Apps",
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
         appBarTheme: AppBarTheme(
           color: Color.fromARGB(255, 239, 178, 160), // AppBar rengi mavi
-        ), // Ana renk olarak mavi kullanılıyor
+        ),
       ),
       home: ChatPage(),
     );

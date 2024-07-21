@@ -34,7 +34,7 @@ class ChatPage extends StatelessWidget {
                 ),
               ],
             ),
-            margin: EdgeInsets.all(8.0),
+            margin: EdgeInsets.all(12.0),
             decoration: BoxDecoration(
               color: Colors.grey,
               borderRadius: BorderRadius.only(
@@ -58,7 +58,7 @@ class ChatPage extends StatelessWidget {
                 ),
               ],
             ),
-            margin: EdgeInsets.all(8.0),
+            margin: EdgeInsets.all(12.0),
             decoration: BoxDecoration(
               color: Colors.grey,
               borderRadius: BorderRadius.only(
@@ -82,7 +82,7 @@ class ChatPage extends StatelessWidget {
                 ),
               ],
             ),
-            margin: EdgeInsets.all(8.0),
+            margin: EdgeInsets.all(12.0),
             decoration: BoxDecoration(
               color: Colors.grey,
               borderRadius: BorderRadius.only(
@@ -93,9 +93,17 @@ class ChatPage extends StatelessWidget {
             ),
           ),
           Container(
-            height: 100,
+            height: 50,
+            child: Row(children: [
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.add),
+                color: Colors.white,
+              ),
+            ]),
+            margin: EdgeInsets.all(58.4),
             decoration: BoxDecoration(
-                color: Colors.black38,
+                color: Colors.black,
                 borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
           )
         ],
