@@ -34,7 +34,11 @@ class LoginPage extends StatelessWidget {
           ),
           Image.network(
             "https://upload.wikimedia.org/wikipedia/tr/a/a3/Jerry_Fare.png",
-          )
+          ),
+          ElevatedButton(
+              onPressed: null,
+              child: Text("Click Me!",
+                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.w300))),
         ],
       ),
     );

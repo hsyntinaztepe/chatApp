@@ -16,7 +16,7 @@ class ChatApp extends StatelessWidget {
           color: Color.fromARGB(255, 239, 178, 160), // AppBar rengi mavi
         ),
       ),
-      home: ChatPage(),
+      home: LoginPage(),
     );
   }
 }
