@@ -36,12 +36,10 @@ class LoginPage extends StatelessWidget {
             Image.network(
               "https://upload.wikimedia.org/wikipedia/tr/a/a3/Jerry_Fare.png",
             ),
-
             TextField(
-              controller: UserNameController,
               decoration: InputDecoration(
                 hintText: "Add Your Username",
-                hintStyle:TextStyle(color: Colors.blueGrey),
+                hintStyle: TextStyle(color: Colors.blueGrey),
               ),
             ),
             ElevatedButton(
